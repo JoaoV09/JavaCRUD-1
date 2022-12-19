@@ -8,7 +8,7 @@ CREATE TABLE users (
     u_name VARCHAR(255),
     u_email VARCHAR(255),
     u_password VARCHAR(63),
-    u_status ENUM('on', 'off', 'del') DEFAULT 'on'
+    u_status ENUM('on', 'del') DEFAULT 'on'
 );
 
 INSERT INTO users ( u_name, u_email, u_password ) VALUES 
